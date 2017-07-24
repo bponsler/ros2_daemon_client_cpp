@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ros2_daemon_client_cpp</name>
+  <version>0.0.0</version>
+  <description>
+    A C++ client for the ROS 2 daemon.
+  </description>
+  <maintainer email="ponsler@gmail.com">Brett Ponsler</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>xmlrpcpp</depend>
+  
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
